@@ -158,7 +158,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # ============================
 
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
-k
+
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
